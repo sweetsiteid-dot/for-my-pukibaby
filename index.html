@@ -1,0 +1,1244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday, My Pukibaby 🤎</title>
+
+<meta
+    name="description"
+    content="Kodak Memories — A Birthday Story">
+
+<meta
+    name="theme-color"
+    content="#3a291f">
+
+<!-- CSS -->
+
+<link
+    rel="stylesheet"
+    href="style.css">
+
+<!-- FONT -->
+
+<link
+    rel="preconnect"
+    href="https://fonts.googleapis.com">
+
+<link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin>
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Caveat:wght@400;700&display=swap"
+    rel="stylesheet">
+
+<!-- ICON -->
+
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<!--=================================
+LOADER
+==================================-->
+
+<div id="loader">
+
+    <div class="loader-film">
+
+        <div class="film-wheel">
+
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+        <h2>
+            Developing Memories...
+        </h2>
+
+        <div class="loading-line">
+
+            <div class="loading-progress"></div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--=================================
+GLOBAL EFFECT
+==================================-->
+
+<div class="grain"></div>
+
+<div class="dust"></div>
+
+<div class="light-leak"></div>
+
+<div class="vignette"></div>
+
+<!--=================================
+MUSIC
+==================================-->
+
+<audio
+    id="music"
+    loop>
+
+    <source
+        src="assets/music/soft.mp3"
+        type="audio/mpeg">
+
+</audio>
+
+<!--=================================
+INTRO
+==================================-->
+
+<section id="intro">
+
+    <div class="intro-bg"></div>
+
+    <div class="intro-content">
+
+        <div class="camera-icon">
+
+            <i class="fa-solid fa-camera-retro"></i>
+
+        </div>
+
+        <span>
+            Birthday Memories
+        </span>
+
+        <h1>
+
+            Happy
+
+            <br>
+
+            Birthday
+
+        </h1>
+
+        <p>
+
+            Every Picture Holds
+
+            A Piece Of My Heart.
+
+        </p>
+
+        <button id="startStory">
+
+            <i class="fa-solid fa-camera"></i>
+
+            Open Your Story
+
+        </button>
+
+    </div>
+
+    <div class="intro-scroll">
+
+        <i class="fa-solid fa-chevron-down"></i>
+
+    </div>
+
+</section>
+
+<!--=================================
+FLASH
+==================================-->
+
+<div id="flash"></div>
+
+<!--=================================
+DESK HERO
+==================================-->
+
+<header id="hero">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-container">
+
+        <div class="desk-item camera">
+
+            <i class="fa-solid fa-camera-retro"></i>
+
+        </div>
+
+        <div class="desk-item flower">
+
+            🌼
+
+        </div>
+
+        <div class="desk-item coffee">
+
+            ☕
+
+        </div>
+
+        <div class="desk-item film">
+
+            🎞
+
+        </div>
+
+        <div class="hero-center">
+
+            <span>
+
+                Birthday Memories
+
+            </span>
+
+            <h1>
+
+                My Pukibaby
+
+            </h1>
+
+            <h2>
+
+                My Favorite Person
+
+                <br>
+
+                My Favorite Home
+
+                🤎
+
+            </h2>
+
+            <p>
+
+                18 May 2023
+
+                —
+
+                Today
+
+            </p>
+
+            <div class="hero-action">
+
+                <button id="storyBtn">
+
+                    Our Story
+
+                </button>
+
+                <button id="letterBtn">
+
+                    Letter
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<!--=================================
+FILM ROLL
+==================================-->
+
+<section id="filmRoll">
+
+    <div class="section-title">
+
+        <span>
+
+            Memory Roll
+
+        </span>
+
+        <h2>
+
+            Captured Moments
+
+        </h2>
+
+        <p>
+
+            Some memories deserve
+            to stay forever.
+
+        </p>
+
+    </div>
+
+    <div class="film-track">
+
+        <div class="film-card">
+
+            <div class="film-hole top"></div>
+
+            <img
+                src="assets/photos/photo1.jpg"
+                alt="Memory 1">
+
+            <div class="film-hole bottom"></div>
+
+            <div class="film-caption">
+
+                <h4>
+
+                    18 May 2023
+
+                </h4>
+
+                <p>
+
+                    The day our story began.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="film-card">
+
+            <div class="film-hole top"></div>
+
+            <img
+                src="assets/photos/photo2.jpg"
+                alt="Memory 2">
+
+            <div class="film-hole bottom"></div>
+
+            <div class="film-caption">
+
+                <h4>
+
+                    A Beautiful Memory
+
+                </h4>
+
+                <p>
+
+                    One of the moments I'll always remember.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="film-card">
+
+            <div class="film-hole top"></div>
+
+            <img
+                src="assets/photos/photo3.jpg"
+                alt="Memory 3">
+
+            <div class="film-hole bottom"></div>
+
+            <div class="film-caption">
+
+                <h4>
+
+                    My Favorite Smile
+
+                </h4>
+
+                <p>
+
+                    A smile worth remembering.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="film-card">
+
+            <div class="film-hole top"></div>
+
+            <img
+                src="assets/photos/photo4.jpg"
+                alt="Memory 4">
+
+            <div class="film-hole bottom"></div>
+
+            <div class="film-caption">
+
+                <h4>
+
+                    Sweet Moment
+
+                </h4>
+
+                <p>
+
+                    A little moment,
+                    a big memory.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="film-card">
+
+            <div class="film-hole top"></div>
+
+            <img
+                src="assets/photos/photo5.jpg"
+                alt="Memory 5">
+
+            <div class="film-hole bottom"></div>
+
+            <div class="film-caption">
+
+                <h4>
+
+                    Still My Favorite
+
+                </h4>
+
+                <p>
+
+                    Yesterday.
+                    Today.
+                    Always.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--=================================
+LOVE LETTER
+==================================-->
+
+<section id="loveLetter">
+
+    <div class="section-title">
+
+        <span>
+
+            For You
+
+        </span>
+
+        <h2>
+
+            A Letter From My Heart
+
+        </h2>
+
+        <p>
+
+            Some words are easier to write
+            than to say.
+
+        </p>
+
+    </div>
+
+    <div class="letter-container">
+
+        <div
+            class="envelope"
+            id="openEnvelope">
+
+            <div class="envelope-front">
+
+                <i class="fa-solid fa-envelope"></i>
+
+                <h3>
+
+                    Open Letter
+
+                </h3>
+
+                <small>
+
+                    Click Me 🤎
+
+                </small>
+
+            </div>
+
+            <div class="letter-paper">
+
+                <span>
+
+                    Dear My Pukibaby,
+
+                </span>
+
+                <div id="letterContent">
+
+                    Happy Birthday, My Pukibaby. 🤎
+
+                    <br><br>
+
+                    Today is your special day,
+                    and I just want you to know
+                    how happy I am that you exist.
+
+                    <br><br>
+
+                    I hope this new chapter of your life
+                    brings you happiness,
+                    beautiful memories,
+                    and countless reasons to smile.
+
+                    <br><br>
+
+                    From the first time we met
+                    on 18 May 2023,
+                    to every little memory we've created,
+                    I'm grateful that our paths crossed.
+
+                    <br><br>
+
+                    You deserve every beautiful thing
+                    that life has to offer.
+
+                    <br><br>
+
+                    Keep smiling,
+                    keep dreaming,
+                    and keep being
+                    my favorite person.
+
+                    <br><br>
+
+                    Happy Birthday,
+                    My Pukibaby. 🤎
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--=================================
+PHOTO DEVELOP
+==================================-->
+
+<section id="developPhoto">
+
+    <div class="section-title">
+
+        <span>
+
+            Vintage Camera
+
+        </span>
+
+        <h2>
+
+            Develop A Memory
+
+        </h2>
+
+        <p>
+
+            Every beautiful memory
+            deserves to be developed.
+
+        </p>
+
+    </div>
+
+    <div class="camera-wrapper">
+
+        <div id="cameraDevelop">
+
+            <i class="fa-solid fa-camera-retro"></i>
+
+        </div>
+
+        <button id="developBtn">
+
+            Take Picture
+
+        </button>
+
+        <div id="polaroid">
+
+            <div class="polaroid-photo">
+
+                <img
+                    src="assets/photos/photo6.jpg"
+                    alt="Memory 6">
+
+            </div>
+
+            <div class="polaroid-text">
+
+                Captured With Love
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--=================================
+WHY I LOVE YOU
+==================================-->
+
+<section id="loveReasons">
+
+    <div class="section-title">
+
+        <span>
+
+            Reasons
+
+        </span>
+
+        <h2>
+
+            Why You're Special
+
+        </h2>
+
+    </div>
+
+    <div class="reason-wrapper">
+
+        <div class="reason-polaroid">
+
+            <div class="reason-number">
+
+                #01
+
+            </div>
+
+            <p id="reasonText">
+
+                There's always another reason
+                why you're my favorite.
+
+            </p>
+
+        </div>
+
+        <button id="nextReason">
+
+            Next Reason 🤎
+
+        </button>
+
+    </div>
+
+</section>
+
+<!--=================================
+SCRAPBOOK
+==================================-->
+
+<section id="scrapbook">
+
+    <div class="section-title">
+
+        <span>
+
+            Scrapbook
+
+        </span>
+
+        <h2>
+
+            Little Pieces Of Happiness
+
+        </h2>
+
+    </div>
+
+    <div class="scrapbook-book">
+
+        <div class="scrap-page active">
+
+            <img
+                src="assets/photos/photo7.jpg"
+                alt="Memory 7">
+
+            <h3>
+
+                Favorite Smile
+
+            </h3>
+
+        </div>
+
+        <div class="scrap-page">
+
+            <img
+                src="assets/photos/photo8.jpg"
+                alt="Memory 8">
+
+            <h3>
+
+                Beautiful Day
+
+            </h3>
+
+        </div>
+
+        <div class="scrap-page">
+
+            <img
+                src="assets/photos/photo9.jpg"
+                alt="Memory 9">
+
+            <h3>
+
+                A Little Happiness
+
+            </h3>
+
+        </div>
+
+        <div class="scrap-page">
+
+            <img
+                src="assets/photos/photo10.jpg"
+                alt="Memory 10">
+
+            <h3>
+
+                Best Chapter
+
+            </h3>
+
+        </div>
+
+    </div>
+
+    <div class="scrap-controls">
+
+        <button id="prevPage">
+
+            <i class="fa-solid fa-chevron-left"></i>
+
+        </button>
+
+        <button id="nextPage">
+
+            <i class="fa-solid fa-chevron-right"></i>
+
+        </button>
+
+    </div>
+
+</section>
+
+<!--=================================
+TIMELINE
+==================================-->
+
+<section id="timeline">
+
+    <div class="section-title">
+
+        <span>
+
+            Journey
+
+        </span>
+
+        <h2>
+
+            Our Story
+
+        </h2>
+
+    </div>
+
+    <div class="timeline-wrapper">
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-card">
+
+                <h3>
+
+                    First Meet
+
+                </h3>
+
+                <small>
+
+                    18 May 2023
+
+                </small>
+
+                <p>
+
+                    The beginning
+                    of a beautiful story.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-card">
+
+                <h3>
+
+                    Getting Closer
+
+                </h3>
+
+                <small>
+
+                    A Beautiful Journey
+
+                </small>
+
+                <p>
+
+                    Every conversation
+                    slowly became
+                    another favorite memory.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-card">
+
+                <h3>
+
+                    Countless Memories
+
+                </h3>
+
+                <small>
+
+                    Every Moment
+
+                </small>
+
+                <p>
+
+                    Every picture carries
+                    a story worth keeping.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-card">
+
+                <h3>
+
+                    Your Birthday
+
+                </h3>
+
+                <small>
+
+                    Today
+
+                </small>
+
+                <p>
+
+                    A little birthday surprise
+                    made especially for you.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--=================================
+VHS MEMORIES
+==================================-->
+
+<section id="vhs">
+
+    <div class="section-title">
+
+        <span>
+
+            Vintage Tape
+
+        </span>
+
+        <h2>
+
+            Replay Our Memories
+
+        </h2>
+
+        <p>
+
+            Some moments are too precious
+            to be watched only once.
+
+        </p>
+
+    </div>
+
+    <div class="vhs-player">
+
+        <div class="vhs-top">
+
+            <span class="rec-dot"></span>
+
+            <span>
+
+                REC
+
+            </span>
+
+            <span>
+
+                PLAY
+
+            </span>
+
+            <span id="vhsTimer">
+
+                00:00:01
+
+            </span>
+
+        </div>
+
+        <div class="vhs-screen">
+
+            <img
+                id="vhsImage"
+                src="assets/photos/photo11.jpg"
+                alt="Memory 11">
+
+            <div class="scan-line"></div>
+
+            <div class="vhs-noise"></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--=================================
+MEMORY WALL
+==================================-->
+
+<section id="memoryWall">
+
+    <div class="section-title">
+
+        <span>
+
+            Gallery
+
+        </span>
+
+        <h2>
+
+            Our Memory Wall
+
+        </h2>
+
+    </div>
+
+    <div class="wall-container">
+
+        <div class="wall-item rotate-left">
+
+            <img
+                src="assets/photos/photo12.jpg"
+                alt="Memory 12">
+
+        </div>
+
+        <div class="wall-item">
+
+            <img
+                src="assets/photos/photo13.jpg"
+                alt="Memory 13">
+
+        </div>
+
+        <div class="wall-item rotate-right">
+
+            <img
+                src="assets/photos/photo14.jpg"
+                alt="Memory 14">
+
+        </div>
+
+        <div class="wall-item rotate-left">
+
+            <img
+                src="assets/photos/photo15.jpg"
+                alt="Memory 15">
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--=================================
+QUOTE
+==================================-->
+
+<section id="quotes">
+
+    <div class="section-title">
+
+        <span>
+
+            Little Words
+
+        </span>
+
+        <h2>
+
+            For My Pukibaby
+
+        </h2>
+
+    </div>
+
+    <div class="quote-box">
+
+        <i class="fa-solid fa-quote-left"></i>
+
+        <p id="quoteText">
+
+            Happy birthday
+            to my favorite person. 🤎
+
+        </p>
+
+    </div>
+
+</section>
+
+<!--=================================
+SECRET MEMORY
+==================================-->
+
+<section id="secret">
+
+    <div class="section-title">
+
+        <span>
+
+            Hidden Chapter
+
+        </span>
+
+        <h2>
+
+            A Little Secret
+
+        </h2>
+
+    </div>
+
+    <button id="unlockSecret">
+
+        Unlock 🤎
+
+    </button>
+
+    <div id="secretBox">
+
+        <img
+            src="assets/photos/photo15.jpg"
+            alt="Favorite Memory">
+
+        <h3>
+
+            My Favorite Memory
+
+        </h3>
+
+        <p>
+
+            If I could relive one memory forever,
+            I'd still choose every moment
+            with you.
+
+        </p>
+
+    </div>
+
+</section>
+
+<!--=================================
+ENDING
+==================================-->
+
+<section id="ending">
+
+    <div class="ending-overlay"></div>
+
+    <div class="ending-content">
+
+        <span>
+
+            📷 END OF ROLL
+
+        </span>
+
+        <h1>
+
+            Happy Birthday
+
+            <br>
+
+            My Pukibaby
+
+            🤎
+
+        </h1>
+
+        <p>
+
+            Thank you for every smile,
+
+            every laugh,
+
+            every memory,
+
+            and every little moment.
+
+            <br><br>
+
+            I hope your birthday
+            is as beautiful as you are.
+
+            <br><br>
+
+            From,
+
+            K
+
+        </p>
+
+        <img
+            class="ending-photo"
+            src="assets/photos/photo1.jpg"
+            alt="My Pukibaby">
+
+    </div>
+
+</section>
+
+<!--=================================
+FOOTER
+==================================-->
+
+<footer>
+
+    <div class="footer-content">
+
+        <h2>
+
+            Kodak Memories
+
+        </h2>
+
+        <p>
+
+            Made with 🤎 by K
+
+        </p>
+
+        <small>
+
+            First met • 18 May 2023
+
+        </small>
+
+    </div>
+
+</footer>
+
+<!--=================================
+BACK TO TOP
+==================================-->
+
+<button id="backToTop">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+<!--=================================
+SCRIPT
+==================================-->
+
+<script src="script.js"></script>
+
+</body>
+
+  </html>
